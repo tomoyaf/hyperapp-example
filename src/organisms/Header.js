@@ -1,6 +1,6 @@
 import { h, app } from "hyperapp";
 import picostyle from "picostyle";
-import {Link} from "@hyperapp/router";
+import { Link } from "@hyperapp/router";
 import Card from "../molecules/Card";
 import Colors from "../theme/Colors";
 import Text from "../molecules/Text";

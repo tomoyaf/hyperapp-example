@@ -1,13 +1,21 @@
-import Top from "./pages/Top";
 import { h } from "hyperapp";
-import { Route } from "@hyperapp/router";
+import { Route, Switch } from "@hyperapp/router";
+
+import Top from "./pages/Top";
+import NotFound404 from "./pages/NotFound404";
 
 export default (state, actions) => (
-  <div>
+  <Switch>
     <Route
-      parent
       path="/"
-      render={(location, match) => Top({ location, match, ...state }, actions)}
+      render={({location, match}) =>
+        Top({ location, match, ...state }, actions)
+      }
     />
-  </div>
+    <Route
+      render={({location, match}) =>
+        NotFound404({location, match, ...state}, actions)
+      }
+    />
+  </Switch>
 );

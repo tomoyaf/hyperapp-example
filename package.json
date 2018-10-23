@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode production",
-    "start:dev": "webpack-dev-server"
+    "start:dev": "webpack-dev-server",
+    "deploy": "yarn build && cp ./dist/main.js ./docs/"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
