@@ -5,6 +5,7 @@ import { Route } from "@hyperapp/router";
 export default (state, actions) => (
   <div>
     <Route
+      parent
       path="/"
       render={(location, match) => Top({ location, match, ...state }, actions)}
     />
