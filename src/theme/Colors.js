@@ -8,12 +8,12 @@ export default {
   molecules: {
     Button: {
       backgroundColor: {
-        default: `#eeeeee`,
+        default: `#fefefe`,
         primary: `#4286f4`
       },
       color: {
         default: `rgb(30, 30, 30)`,
-        primary: `#eeeeee`
+        primary: `#fdfdfd`
       }
     },
     Text: {
@@ -26,7 +26,7 @@ export default {
   },
   organisms: {
     Header: {
-      backgroundColor: `#eeeeee`,
+      backgroundColor: `#fbfbfb`,
       color: `rgb(30, 30, 30)`
     }
   }
