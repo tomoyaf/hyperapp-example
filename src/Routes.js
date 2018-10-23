@@ -8,7 +8,7 @@ import NotFound404 from "./pages/NotFound404";
 export default (state, actions) => (
   <Switch>
     <Route
-      path={`/`}
+      path={`${config.BASE_URL}`}
       render={({location, match}) =>
         Top({ location, match, ...state }, actions)
       }
