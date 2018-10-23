@@ -4,6 +4,7 @@ import { Link } from "@hyperapp/router";
 import Card from "../molecules/Card";
 import Colors from "../theme/Colors";
 import Text from "../molecules/Text";
+import config from "../config";
 
 const style = picostyle(h);
 
@@ -17,7 +18,7 @@ const StyledCard = style(Card)(props => ({
 
 export default ({ state, actions }) =>
   <StyledCard elevation={1}>
-    <Link to="/" style={{textDecoration: "none"}}>
+    <Link to={`${config.BASE_URL}`} style={{textDecoration: "none"}}>
       <Text level="M" style={{fontWeight: "bold"}}>
         hyperapp-boilerplate
       </Text>
