@@ -7,5 +7,6 @@ const state = {
   count: 0,
   location: location.state
 };
+console.log("first");
 
 app(state, actions, Routes, document.body);
