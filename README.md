@@ -1,7 +1,7 @@
 # hyperapp-boilerplate
-- Hyperapp
-- Hyperapp Router
-- Picostyle
+- [Hyperapp](https://github.com/jorgebucaran/hyperapp)
+- [Hyperapp Router](https://github.com/hyperapp/router)
+- [Picostyle](https://github.com/morishitter/picostyle)
 - Atomic Design
 
 ## Getting Started
