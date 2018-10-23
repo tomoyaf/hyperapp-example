@@ -607,6 +607,11 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
+"@hyperapp/router@^0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@hyperapp/router/-/router-0.7.1.tgz#affa142997308de38a6ad72bae9c245947b11e11"
+  integrity sha512-q2CwqJUDlBVottxjwfyN+12uAx4gSoSm/60WO3IvPYpS4xtckSdWmgAWSXDOsTgBQRBzR68k3CXbBKZsj+m6DA==
+
 "@webassemblyjs/ast@1.7.8":
   version "1.7.8"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.7.8.tgz#f31f480debeef957f01b623f27eabc695fa4fe8f"
@@ -3332,6 +3337,11 @@ pbkdf2@^3.0.3:
     ripemd160 "^2.0.1"
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
+
+picostyle@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/picostyle/-/picostyle-2.0.1.tgz#ac403e77085bb9ac75929f58a66a609684f845ca"
+  integrity sha512-72RM7tTXjIvSHha/LO52UNwN3cvWpkxQriVaD8YZ3vUttmZdG3jG+DW/S73gROT+xv2a0+VIaHBvoOcpOYOUCQ==
 
 pify@^2.0.0:
   version "2.3.0"
