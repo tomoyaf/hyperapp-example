@@ -23,7 +23,7 @@ export default style("button")(props => ({
   outline: "none",
   padding: 0,
   appearance: "none",
-  padding: "10px 20px",
+  padding: "8px 15px",
   margin: "5px",
   borderRadius: "5px",
   ...ClickableStyle
