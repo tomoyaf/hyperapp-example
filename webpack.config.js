@@ -2,7 +2,6 @@ const MODE = 'development';
 const enabledSourceMap = (MODE === 'development');
 
 module.exports = {
-  mode: MODE,
   entry: "./src/index.js",
   devServer: {
     contentBase: "dist",
