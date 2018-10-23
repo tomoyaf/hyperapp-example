@@ -9,5 +9,6 @@ https://tomoyaf.github.io/hyperapp-boilerplate/
 
 ## Getting Started
 1. `$ git clone git@github.com:tomoyaf/hyperapp-boilerplate.git ./myapp`
-2. `$ yarn`
-3. `$ yarn start:dev`
+2. `$ cd ./myapp`
+3. `$ yarn`
+4. `$ yarn start:dev`
