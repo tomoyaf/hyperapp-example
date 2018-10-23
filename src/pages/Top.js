@@ -1,16 +1,6 @@
 import { h } from "hyperapp";
-import Wrapper from "../atoms/Wrapper";
-import Card from "../molecules/Card";
-import Button from "../molecules/Button";
+import TopTemplate from "../templates/Top";
 
 export default (state, actions) => (
-  <Wrapper style={{ flexDirection: "column" }}>
-    <div>
-      <h1>{state.count}</h1>
-    </div>
-    <Wrapper>
-      <Button onclick={() => actions.down(1)}>-</Button>
-      <Button onclick={() => actions.up(1)}>+</Button>
-    </Wrapper>
-  </Wrapper>
+  <TopTemplate state={state} actions={actions} />
 );

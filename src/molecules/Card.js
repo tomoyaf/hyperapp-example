@@ -6,5 +6,5 @@ import ElevationStyle from "../atoms/ElevationStyle";
 const style = picostyle(h);
 
 export default style(Wrapper)(props => ({
-  ...ElevationStyle(props.elevation ? props.elevation : 2)
+  ...ElevationStyle(props.elevation == null ? 2 : props.elevation)
 }));
