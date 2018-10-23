@@ -14,5 +14,3 @@ Thumbs.db
 !.vscode/extensions.json
 
 node_modules/*
-
-dist/*
