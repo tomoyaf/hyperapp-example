@@ -1,4 +1,4 @@
-# hyperapp-boilerplate
+# hyperapp-example
 - [Hyperapp](https://github.com/jorgebucaran/hyperapp)
 - [Hyperapp Router](https://github.com/hyperapp/router)
 - [Picostyle](https://github.com/morishitter/picostyle)
